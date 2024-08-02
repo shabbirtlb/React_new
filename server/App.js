@@ -13,8 +13,6 @@ const passport = require("passport");
 const OAuth2Strat = require("passport-google-oauth2").Strategy;
 const userdb = require("./model/userschema");
 
-const clientid = "823697821061-9hgqgjh09vn5tk9ulcrvr9asras6cc8p.apps.googleusercontent.com";
-const clientsecret = "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"
 
 
 app.use(cors({
