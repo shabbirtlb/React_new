@@ -1,0 +1,50 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 50px;
+    background: blue;
+    padding-bottom: 30px;
+    border:20px solid black;
+    width: 40px;
+}
+.header{
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 200px;
+}
+.text{
+    color:black;
+}
+.underline{
+    background:red;
+    height:2px;
+    width:1535px;
+    border-radius:4px;
+}
+.inputs{
+   height:50px;
+   width:450px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 35%;
+   gap:25px;
+   margin: auto;
+}
+.input{
+    align-items: center;
+    height:110px;
+    border: 24px;
+    width: 430px;
+    background-color: black;
+    color:white;
+}
+.input textarea{
+    height:80px;
+    width: 420px; 
+    font-size: 18px;
+    font-weight: 300;
+}
+.submit-container{
+    margin-top:160px;
+}
